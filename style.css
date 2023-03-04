@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 8px;
+  background-color: #ee5e41;
+}
+
+header,
+h1,
+h2,
+h3,
+form button {
+  font-family: 'Lato', sans-serif;
+}
+
+body,
+input,
+textarea {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  height: 60px;
+}
+
+#menu li {
+  display: inline;
+  list-style: none;
+  margin-left: 18px;
+  font-size: 18px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+section {
+  padding: 10px 0;
+}
+
+section .container {
+  margin-top: 15px;
+}
+
+#headBanner {
+  background: url(./img/banner\ 2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 480px;
+  width: 65%;
+}
+
+#headText {
+  padding: 0 15px;
+  height: 480px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#headText p {
+  text-align: justify;
+  font-size: 14px;
+  color: #555;
+}
+
+#sponsorList {
+  margin-top: 20px;
+}
+
+#sponsorList li {
+  display: inline;
+  list-style: none;
+}
+
+#sponsorList img {
+  height: 50px;
+  margin: 0 19px;
+}
+
+#contacts {
+  height: 480px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contactForm {
+  padding: 15px;
+  height: 480px;
+  width: 50%;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #ee5e41;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+form button {
+  background-color: #ee5e41;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ff3e18;
+}
+
+#contactBanner {
+  background: url(./img/banner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 480px;
+  width: 65%;
+}
+
+#socialInfo {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#socialLinks {
+  height: 100px;
+  width: 50%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#socialLinks li {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+}
+
+#socialLinks li a {
+  text-decoration: none;
+}
+
+#socialLinks img {
+  height: 30px;
+}
+
+#socialAddress {
+  height: 100px;
+  width: 50%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#socialAddress p {
+  color: #555;
+}
+
+footer {
+  background-color: #ee5e41;
+  padding: 26px;
+  color: #ecf0f1;
+  text-align: center;
+}
+
+footer .container {
+  justify-content: center;
+}
